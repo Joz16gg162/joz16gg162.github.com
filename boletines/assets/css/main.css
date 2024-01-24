@@ -1,0 +1,65 @@
+/*
+Amarillo:#F5DD8C
+Naranja:##f4791f
+Blanco: ##F5E4DC
+Gris: ##999388
+*/
+
+/*Aplicamos a todo*/
+html {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: #659999;
+}
+
+.title{
+	text-decoration: uppercase;
+}
+
+.container {
+	background: #659999;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*width: 100vw;*/
+}
+
+.content {
+	max-width: 960px;
+	max-height: 500px;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+
+.paragraph{
+	line-height: 1.8em;
+	font-weight: 300;
+}
+
+.table{
+	width: 100%;
+	border-spacing: 0;
+}
+
+.table td, .table th {
+	padding: 1em;
+	text-align: left;
+}
+
+.bodytable tr:nth-child(odd){
+	background-color: #F5DD8C;
+}
+
+/*Aqui es selector de todas las estrellas, no de 
+algunas cuantas...*/
+.fa-solid {
+	color: #f4791f;
+}
+
